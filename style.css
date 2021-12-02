@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.top-heading {
+  background: linear-gradient(to right, red, green, yellow);
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  width: 50%;
+  margin: auto;
+  border: 3px solid red;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: rgb(23, 141, 180);
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-box {
+  border: 2px solid red;
+  background-color: rgb(43, 202, 194);
+  padding: 0px 20px;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.box {
+  border: 2px solid green;
+  margin: 0px 20px;
+  border-radius: 10px;
+  background-color: rgb(54, 133, 109);
+}
+.upper {
+  height: fit-content;
+}
+.lower {
+  height: fit-content;
+}
+
+.performer-heading {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
+  background: linear-gradient(to right, red, yellow, red);
+  padding-bottom: 10px;
+}
+
+.performer-container {
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px;
+  background: radial-gradient(
+    ellipse,
+    blue,
+    rgb(26, 130, 172),
+    rgb(32, 129, 32)
+  );
+}
+
+.performer {
+  text-align: center;
+  border: 2px solid rgb(167, 20, 130);
+  background-color: yellow;
+  color: red;
+  margin: 0px 30px;
+  padding: 0px 20px 20px 20px;
+  border-radius: 10px;
+  text-decoration: underline;
+}
+
+.best-heading {
+  text-align: center;
+  background-color: rgb(137, 170, 45);
+  padding-bottom: 20px;
+  color: white;
+  margin: 20px 0px;
+}
+
+.mid-content {
+  display: flex;
+}
+.mid-left-side {
+  margin-right: 20px;
+}
+
+.mid-left-upper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+}
+
+.mid-left-upper1 {
+  color: white;
+  background-color: rgb(123, 189, 123);
+  font-size: 25px;
+}
+.mid-left-upper2 {
+  color: white;
+  background-color: skyblue;
+  font-size: 25px;
+  margin: 0px 20px;
+}
+.mid-left-upper3 {
+  color: white;
+  background-color: violet;
+  font-size: 25px;
+}
+
+.mid-left-lower {
+  background-color: rgb(184, 132, 64);
+  color: white;
+  font-size: 20px;
+}
+.mid-right-side {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+}
+
+.last-heading {
+  background-color: rgb(54, 94, 110);
+  text-align: center;
+  margin: 20px 0px;
+}
